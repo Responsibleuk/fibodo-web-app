@@ -47,7 +47,7 @@
                     </a>
                 </div>                 
                 <div class="buy-button">
-                    <a href="signup.html" class="btn btn-primary">Signup</a>
+                    <a href="signup.html" class="btn btn-primary">Login</a>
                 </div><!--end login button-->
                 <!-- End Logo container-->
                 <div class="menu-extras">
@@ -70,6 +70,9 @@
                         <li><a href="features.html" class="sub-menu-item">Features</a></li>
                         <li><a href="app.html" class="sub-menu-item">App</a></li>
                         <li><a href="modules.html" class="sub-menu-item">Modules</a></li>
+                        <li><a href="modules.html" class="sub-menu-item"><span class="for">for</span> Business</a></li>
+                        <li><a href="modules.html" class="sub-menu-item"><span class="for">for</span> Enterprise</a></li>
+                        
                         <li class="has-submenu parent-menu-item">
                             <a href="javascript:void(0)">Home</a><span class="menu-arrow"></span>
                             <ul class="submenu">
@@ -83,7 +86,7 @@
                             </ul>
                         </li>
         
-                        <li class="has-submenu parent-menu-item">
+                        <!-- <li class="has-submenu parent-menu-item">
                             <a href="javascript:void(0)">Pages</a><span class="menu-arrow"></span>
                             <ul class="submenu">
                                 <li><a href="about.html" class="sub-menu-item">Company</a></li>
@@ -94,53 +97,56 @@
                                 <li><a href="reset-password.html" class="sub-menu-item">Reset Password</a></li>
                                 <li><a href="404.html" class="sub-menu-item">404</a></li>
                             </ul>
-                        </li>
+                        </li> -->
 
-                        <li class="has-submenu parent-menu-item">
+                        <!-- <li class="has-submenu parent-menu-item">
                             <a href="javascript:void(0)">Blog</a><span class="menu-arrow"></span>
                             <ul class="submenu">
                                 <li><a href="blog.html" class="sub-menu-item">Blog</a></li>
                                 <li><a href="blog-detail.html" class="sub-menu-item">Single Blog</a></li>
                             </ul>
-                        </li>
+                        </li> -->
 
-                        <li><a href="contact.html" class="sub-menu-item">Contact</a></li>
+                        <!-- <li><a href="contact.html" class="sub-menu-item">Contact</a></li> -->
                     </ul><!--end navigation menu-->
                 </div><!--end navigation-->
             </div><!--end container-->
         </header><!--end header-->
         <!-- Navbar End -->
 
-        <!-- Home Start --> 
-        <section class="bg-half-170 d-table w-100 overflow-hidden" id="home">
+        <!-- Hero Start -->
+        <section class="bg-home d-flex align-items-center" style="background: url('images/bg2.png') center center; height: auto;" id="home">
+            <div class="bg-overlay bg-overlay-primary"></div>
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-7 col-md-6">
-                        <div class="title-heading">
-                            <div class="alert alert-light alert-pills" role="alert">
-                                <span class="badge bg-primary rounded-pill me-1">Dashboard</span>
-                                <span class="content text-muted"> Learn anythting with Appgen</span>
-                             </div>
-                            <h1 class="heading mb-3">Make anything develop <br> with Appgen</h1>
-                            <p class="para-desc text-muted">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</p>
-                            <div class="mt-4">
-                                <a href="javascript:void(0)" class="btn btn-pills btn-primary">Get Started</a>
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 text-center mt-0 mt-md-5 pt-0 pt-md-5">
+                        <div class="title-heading margin-top-100">
+                            <h1 class="heading text-white mb-3">Appgen Build for Your Management</h1>
+                            <p class="para-desc mx-auto text-white-50">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</p>
+                            <div class="watch-video mt-4">
+                                <a href="#about" class="btn btn-primary mb-2">How It Work</a>
+                                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#watchvideomodal" class="video-play-icon watch text-light mb-2 ms-2"><i class="mdi mdi-play play-icon-circle text-center d-inline-block me-2 rounded-pill text-white position-relative play play-iconbar"></i> Watch now !</a>
                             </div>
                         </div>
-                    </div><!--end col-->
 
-                    <div class="col-lg-5 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
-                        <div class="dashboard-shape-two app-image-fluid">
-                            <img src="images/saas/saas-2.png" alt="">
+                        <div class="home-dashboard">
+                            <img src="images/saas/laptop-one.png" alt="" class="img-fluid">
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->
-            </div><!--end container-->
+            </div><!--end container--> 
         </section><!--end section-->
-        <!-- Home End -->
+        <div class="position-relative">
+            <div class="shape overflow-hidden text-light">
+                <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        <!-- Hero End -->
 
-        <!-- Client start -->
-        <section class="py-4 border-top border-bottom position-relative">
+        <!-- Client Start -->
+        <section class="section bg-light">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-2 col-md-2 col-6 text-center py-4">
@@ -168,16 +174,17 @@
                     </div><!--end col-->
                 </div><!--end row-->
             </div><!--end container-->
-        </section>
-        <!-- Client end -->
+        </section><!--end section-->
+        <!-- Client End -->
 
         <!-- Features Start -->
-        <section class="section" id="service">
+        <section class="section overflow-hidden" id="service">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12">
                         <div class="section-title text-center mb-4 pb-2">
-                            <h4 class="title mb-4">Dashboard Features</h4>
+                            <h6 class="text-primary font-weight-normal mb-3">Work Process</h6>
+                            <h4 class="title mb-4">How It Works ?</h4>
                             <p class="para-desc mx-auto text-muted mb-0">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</p>
                         </div>
                     </div><!--end col-->
@@ -188,11 +195,11 @@
                         <div class="feature position-relative text-center">
                             <div class="p-4 rounded position-relative overflow-hidden">
                                 <div class="icon text-primary">
-                                    <i class="uim uim-download-alt"></i>
+                                    <i class="uim uim-key-skeleton-alt"></i>
                                     <img src="images/shape-1.png" class="avatar avatar-small icon-shape" alt="">
                                 </div>
                                 <div class="content mt-4">
-                                    <h5><a href="javascript:void(0)" class="title text-dark">Store Integration</a></h5>
+                                    <h5><a href="javascript:void(0)" class="title text-dark">Create Account</a></h5>
                                     <p class="text-muted">Due to its widespread use as filler text for layouts, non-readability is of great importance</p>
                                     <a href="javascript:void(0)" class="text-primary">Read More <i data-feather="chevron-right" class="fea icon-sm"></i></a>
                                 </div>
@@ -204,27 +211,11 @@
                         <div class="feature position-relative text-center">
                             <div class="p-4 rounded position-relative overflow-hidden">
                                 <div class="icon text-primary">
-                                    <i class="uim uim-unlock-alt"></i>
+                                    <i class="uim uim-signal-alt-3"></i>
                                     <img src="images/shape-1.png" class="avatar avatar-small icon-shape" alt="">
                                 </div>
                                 <div class="content mt-4">
-                                    <h5><a href="javascript:void(0)" class="title text-dark">Data Protection</a></h5>
-                                    <p class="text-muted">Due to its widespread use as filler text for layouts, non-readability is of great importance</p>
-                                    <a href="javascript:void(0)" class="text-primary">Read More <i data-feather="chevron-right" class="fea icon-sm"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-
-                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                        <div class="feature position-relative text-center">
-                            <div class="p-4 rounded position-relative overflow-hidden">
-                                <div class="icon text-primary">
-                                    <i class="uim uim-chart"></i>
-                                    <img src="images/shape-1.png" class="avatar avatar-small icon-shape" alt="">
-                                </div>
-                                <div class="content mt-4">
-                                    <h5><a href="javascript:void(0)" class="title text-dark">Invoice Generator</a></h5>
+                                    <h5><a href="javascript:void(0)" class="title text-dark">Data Analysis</a></h5>
                                     <p class="text-muted">Due to its widespread use as filler text for layouts, non-readability is of great importance</p>
                                     <a href="javascript:void(0)" class="text-primary">Read More <i data-feather="chevron-right" class="fea icon-sm"></i></a>
                                 </div>
@@ -240,39 +231,7 @@
                                     <img src="images/shape-1.png" class="avatar avatar-small icon-shape" alt="">
                                 </div>
                                 <div class="content mt-4">
-                                    <h5><a href="javascript:void(0)" class="title text-dark">Auto Responder</a></h5>
-                                    <p class="text-muted">Due to its widespread use as filler text for layouts, non-readability is of great importance</p>
-                                    <a href="javascript:void(0)" class="text-primary">Read More <i data-feather="chevron-right" class="fea icon-sm"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-
-                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                        <div class="feature position-relative text-center">
-                            <div class="p-4 rounded position-relative overflow-hidden">
-                                <div class="icon text-primary">
-                                    <i class="uim uim-airplay"></i>
-                                    <img src="images/shape-1.png" class="avatar avatar-small icon-shape" alt="">
-                                </div>
-                                <div class="content mt-4">
-                                    <h5><a href="javascript:void(0)" class="title text-dark">Social Plugins</a></h5>
-                                    <p class="text-muted">Due to its widespread use as filler text for layouts, non-readability is of great importance</p>
-                                    <a href="javascript:void(0)" class="text-primary">Read More <i data-feather="chevron-right" class="fea icon-sm"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-
-                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                        <div class="feature position-relative text-center">
-                            <div class="p-4 rounded position-relative overflow-hidden">
-                                <div class="icon text-primary">
-                                    <i class="uim uim-circle-layer"></i>
-                                    <img src="images/shape-1.png" class="avatar avatar-small icon-shape" alt="">
-                                </div>
-                                <div class="content mt-4">
-                                    <h5><a href="javascript:void(0)" class="title text-dark">Data Backup</a></h5>
+                                    <h5><a href="javascript:void(0)" class="title text-dark">Show Result</a></h5>
                                     <p class="text-muted">Due to its widespread use as filler text for layouts, non-readability is of great importance</p>
                                     <a href="javascript:void(0)" class="text-primary">Read More <i data-feather="chevron-right" class="fea icon-sm"></i></a>
                                 </div>
@@ -281,19 +240,20 @@
                     </div><!--end col-->
                 </div><!--end row-->
             </div><!--end container-->
-        </section><!--end section-->
-        <div class="position-relative">
-            <div class="shape overflow-hidden text-light">
-                <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
-                </svg>
-            </div>
-        </div>
-        <!-- Features End -->
 
-        <!-- Start -->
-        <section class="section bg-light">
-            <div class="container">
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center">
+                            <h6 class="text-primary font-weight-normal mb-3">Features</h6>
+                            <h4 class="title mb-4">What We Do ?</h4>
+                            <p class="text-muted para-desc mx-auto mb-0">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</p>
+                        </div>
+                    </div><!--end dol-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-60">
                 <div class="row align-items-center">
                     <div class="col-md-6">
                         <div class="feature position-relative">
@@ -302,28 +262,52 @@
                     </div><!--end col-->
 
                     <div class="col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
-                        <div class="section-title ms-lg-5">
+                        <div class="section-title">
                             <h5 class="title mb-4">Perfect Solution for <br> Your Dashboard</h5>
                             <p class="text-muted para-desc">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</p>
-                            <div class="mt-4 pt-2">
+                            <ul class="list-unstyled">
+                                <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Digital Marketing Solutions for Tomorrow</li>
+                                <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Our Talented & Experienced Marketing Agency</li>
+                                <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Create your own skin to match your brand</li>
+                            </ul>
+                            <div class="mt-4">
                                 <a href="javascript:void(0)" class="btn btn-primary">Get Started</a>
                             </div>
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->
             </div><!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row align-items-center">
+                    <div class="col-md-5 order-1 order-md-2">
+                        <div class="feature position-relative">
+                            <img src="images/saas/features-2.png" class="img-fluid d-block mx-auto" alt="">
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-md-7 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="section-title">
+                            <h5 class="title mb-4">Built The Dashboard <br> That Everyone Love.</h5>
+                            <p class="text-muted para-desc">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</p>
+                            <ul class="list-unstyled">
+                                <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Digital Marketing Solutions for Tomorrow</li>
+                                <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Our Talented & Experienced Marketing Agency</li>
+                                <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Create your own skin to match your brand</li>
+                            </ul>
+                            <div class="watch-video mt-4">
+                                <a href="javascript:void(0)" class="btn btn-primary mb-2 me-2">Read More</a>
+                                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#watchvideomodal" class="video-play-icon watch title-dark text-dark mb-2"><i class="mdi mdi-play play-icon-circle text-center d-inline-block me-2 rounded-pill text-white title-dark position-relative play play-iconbar"></i> Watch Now</a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
         </section><!--end section-->
-        <div class="position-relative">
-            <div class="shape overflow-hidden text-white">
-                <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
-                </svg>
-            </div>
-        </div>
-        <!-- End -->
+        <!-- Features End -->
 
         <!-- Pricing Start -->
-        <section class="section">
+        <section class="section bg-light" id="price">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12">
@@ -444,39 +428,44 @@
                     </div><!--end col-->
                 </div><!--end row-->
             </div><!--end container-->
-        </section><!--end section-->
-        <div class="position-relative">
-            <div class="shape overflow-hidden text-light">
-                <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
-                </svg>
-            </div>
-        </div>
-        <!-- Pricing End -->
 
-        <!-- Start -->
-        <section class="section bg-light">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-5 order-1 order-md-2">
-                        <div class="feature position-relative">
-                            <img src="images/saas/features-2.png" class="img-fluid" alt="">
+            <div class="container mt-100 mt-60">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <div class="faq-container">
+                            <h6 class="question"><i data-feather="help-circle" class="fea icon-ex-md text-primary me-2"></i> How our <span class="text-primary">Appgen</span> work ?</h6>
+                            <p class="answer text-muted mt-3 mb-0">Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts.</p>
                         </div>
                     </div><!--end col-->
+                    
+                    <div class="col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="faq-container">
+                            <h6 class="question"><i data-feather="help-circle" class="fea icon-ex-md text-primary me-2"></i> What is the main process open account ?</h6>
+                            <p class="answer text-muted mt-3 mb-0">If the distribution of letters and 'words' is random, the reader will not be distracted from making a neutral judgement on the visual impact</p>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-md-6 col-12 mt-4 pt-2">
+                        <div class="faq-container">
+                            <h6 class="question"><i data-feather="help-circle" class="fea icon-ex-md text-primary me-2"></i> How to make unlimited data entry ?</h6>
+                            <p class="answer text-muted mt-3 mb-0">Furthermore, it is advantageous when the dummy text is relatively realistic so that the layout impression of the final publication is not compromised.</p>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-md-6 col-12 mt-4 pt-2">
+                        <div class="faq-container">
+                            <h6 class="question"><i data-feather="help-circle" class="fea icon-ex-md text-primary me-2"></i> Is <span class="text-primary">Appgen</span> safer to use with my account ?</h6>
+                            <p class="answer text-muted mt-3 mb-0">The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century. Lorem Ipsum is composed in a pseudo-Latin language which more or less corresponds to 'proper' Latin.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
 
-                    <div class="col-md-7 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                <div class="row mt-md-5 pt-md-3 mt-4 pt-2 justify-content-center">
+                    <div class="col-12 text-center">
                         <div class="section-title">
-                            <h5 class="title mb-4">Built The Dashboard <br> That Everyone Love.</h5>
-                            <p class="text-muted para-desc">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</p>
-                            <ul class="list-unstyled">
-                                <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Digital Marketing Solutions for Tomorrow</li>
-                                <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Our Talented & Experienced Marketing Agency</li>
-                                <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Create your own skin to match your brand</li>
-                            </ul>
-                            <div class="watch-video mt-4 pt-2">
-                                <a href="javascript:void(0)" class="btn btn-primary mb-2 me-2">Read More</a>
-                                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#watchvideomodal" class="video-play-icon watch title-dark text-dark mb-2"><i class="mdi mdi-play play-icon-circle text-center d-inline-block me-2 rounded-pill text-white title-dark position-relative play play-iconbar"></i> Watch Now</a>
-                            </div>
+                            <h4 class="title mb-4">Have Question ? Get in touch!</h4>
+                            <p class="text-muted para-desc mx-auto">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</p>
+                            <a href="#subscribe" class="btn btn-primary mt-4 scroll-down">Subscribe Now</a>
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->
@@ -489,35 +478,114 @@
                 </svg>
             </div>
         </div>
-        <!-- End -->
+        <!-- Pricing End -->
 
-        <!-- Download Start -->
-        <section class="section" id="download">
+        <!-- Testimonial Start -->
+        <section class="section">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-6 col-12">
-                        <img src="images/app/mobile-2.png" class="img-fluid d-block mx-auto" alt="">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h4 class="title mb-4">Happy Client's</h4>
+                            <p class="text-muted para-desc mx-auto mb-0">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</p>
+                        </div>
                     </div><!--end col-->
+                </div><!--end row-->
 
-                    <div class="col-lg-6 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-                        <div class="section-title">
-                            <div class="alert alert-light alert-pills" role="alert">
-                                <span class="badge bg-dark rounded-pill me-1">Apps</span>
-                                <span class="content">Download now <i data-feather="chevron-right" class="fea icon-sm"></i></span>
-                             </div>
-                            <h4 class="title mb-4 mt-2">Available for your <br> Smartphones</h4>
-                            <p class="text-muted para-desc mb-0">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                            <div class="mt-4 mb-4">
-                                <a href="javascript:void(0)" class="btn btn-pills btn-lg btn-primary mt-2 me-2"><i class="mdi mdi-apple"></i> App Store</a>
-                                <a href="javascript:void(0)" class="btn btn-pills btn-lg btn-primary mt-2"><i class="mdi mdi-google-play"></i> Play Store</a>
+                <div class="row">
+                    <div class="col-12 mt-4">
+                        <div class="tiny-three-item">
+                            <div class="tiny-slide">
+                                <div class="customer-testi m-1">
+                                    <div class="content p-3 shadow rounded bg-white position-relative">
+                                        <ul class="list-unstyled mb-0 text-warning">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
+                                    </div>
+                                    <div class="d-flex mt-3 align-items-center">
+                                        <img src="images/client/01.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
+                                        <p class="text-primary mb-0">- Calvin Carlo <small class="text-muted d-block ms-2">Manager</small></p>
+                                    </div>
+                                </div>
                             </div>
 
-                            <div class="d-inline-block">
-                                <div class="pt-4 d-flex align-items-center border-top">
-                                    <i data-feather="smartphone" class="fea icon-md me-2 text-primary"></i>
-                                    <div class="content">
-                                        <p class="mb-0">Install app now on your cellphones</p>
-                                        <a href="javascript:void(0)" class="text-primary small">Learn More <i class="mdi mdi-arrow-right"></i></a> 
+                            <div class="tiny-slide">
+                                <div class="customer-testi m-1">
+                                    <div class="content p-3 shadow rounded bg-white position-relative">
+                                        <ul class="list-unstyled mb-0 text-warning">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
+                                    </div>
+                                    <div class="d-flex mt-3 align-items-center">
+                                        <img src="images/client/02.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
+                                        <p class="text-primary mb-0">- Christa Smith <small class="text-muted d-block ms-2">Manager</small></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="customer-testi m-1">
+                                    <div class="content p-3 shadow rounded bg-white position-relative">
+                                        <ul class="list-unstyled mb-0 text-warning">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
+                                    </div>
+                                    <div class="d-flex mt-3 align-items-center">
+                                        <img src="images/client/03.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
+                                        <p class="text-primary mb-0">- Jemina CLone <small class="text-muted d-block ms-2">Manager</small></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="customer-testi m-1">
+                                    <div class="content p-3 shadow rounded bg-white position-relative">
+                                        <ul class="list-unstyled mb-0 text-warning">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
+                                    </div>
+                                    <div class="d-flex mt-3 align-items-center">
+                                        <img src="images/client/04.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
+                                        <p class="text-primary mb-0">- Smith Vodka <small class="text-muted d-block ms-2">Manager</small></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="customer-testi m-1">
+                                    <div class="content p-3 shadow rounded bg-white position-relative">
+                                        <ul class="list-unstyled mb-0 text-warning">
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero Launch your campaign and benefit from our expertise. "</p>
+                                    </div>
+                                    <div class="d-flex mt-3 align-items-center">
+                                        <img src="images/client/05.jpg" class="avatar avatar-small me-3 rounded shadow" alt="">
+                                        <p class="text-primary mb-0">- Cristino Murfi <small class="text-muted d-block ms-2">Manager</small></p>
                                     </div>
                                 </div>
                             </div>
@@ -525,8 +593,32 @@
                     </div><!--end col-->
                 </div><!--end row-->
             </div><!--end container-->
+
+            <div class="container mt-100 mt-60" id="subscribe">
+                <div class="py-5 px-4 bg-primary rounded-pill" style="background: url('images/map.png') center center;">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <div class="section-title text-center mb-4 pb-2">
+                                <h4 class="title text-white mb-4">Subscribe our Newsletter</h4>
+                                <p class="text-white-50 mx-auto para-desc mb-0">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</p>
+                            </div>
+                        </div><!--end col-->
+
+                        <div class="col-lg-8">
+                            <div class="text-center subcribe-form mt-4 pt-2">
+                                <form>
+                                    <div class="form-group mb-0">
+                                        <input type="email" id="email" name="email" class="rounded-pill" placeholder="Your Email Id">
+                                        <button type="submit" class="btn btn-pills btn-success">Subscribe Now</button>
+                                    </div>
+                                </form><!--end form-->
+                            </div><!--end subscribe form-->
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end div-->
+            </div><!--end container-->
         </section><!--end section-->
-        <!-- Download End -->
+        <!-- Testimonial End -->
 
         <!-- Footer Start -->
         <footer class="bg-dark py-5">
@@ -595,8 +687,9 @@
         <!-- Icon -->
         <script src="js/feather.min.js"></script>
         <script src="https://unicons.iconscout.com/release/v3.0.6/script/monochrome/bundle.js"/></script>
-        <!-- Contact -->
-        <script src="js/contact.js"></script>
+        <!-- SLIDER -->
+        <script src="js/tiny-slider.js "></script>
+        <script src="js/tiny-slider-init.js "></script>
         <!-- Main Js -->
         <script src="js/app.js"></script>
     </body>
