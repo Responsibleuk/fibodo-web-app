@@ -1,115 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>fibodo</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="App and Saas Landing Template" />
-        <meta name="keywords" content="Application, Clean, Saas, Dashboard, Bootstrap 5" />
-        <meta content="Shreethemes" name="author" />
-        <!-- favicon -->
-        <link rel="shortcut icon" href="images/favicon.ico">
-        <!-- Bootstrap css -->
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <!-- Icons -->
-        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
-        <!-- Main css File -->
-        <link href="css/style.css" rel="stylesheet" type="text/css" />
-    </head>
 
-    <body>
-        <!-- Loader Start -->
-        <div id="preloader">
-            <div id="status">
-                <div class="logo">
-                    <img src="images/logo-dark.png" height="25" class="d-block mx-auto" alt="">
-                </div>
-                <div class="sk-chase mt-4">
-                    <div class="sk-chase-dot"></div>
-                    <div class="sk-chase-dot"></div>
-                    <div class="sk-chase-dot"></div>
-                    <div class="sk-chase-dot"></div>
-                    <div class="sk-chase-dot"></div>
-                    <div class="sk-chase-dot"></div>
-                </div>
+<head>
+    <meta charset="utf-8" />
+    <title>golf | home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="App and Saas Landing Template" />
+    <meta name="keywords" content="Application, Clean, Saas, Dashboard, Bootstrap 5" />
+    <meta content="Shreethemes" name="author" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/logo-icon-golf.ico">
+    <!-- Bootstrap css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- Icons -->
+    <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+    <!-- Slider -->
+    <link rel="stylesheet" href="css/tiny-slider.css" />
+    <!-- Main css File -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!-- Loader Start -->
+    <div id="preloader">
+        <div id="status">
+            <div class="logo">
+                <img src="images/logo-dark-golf.png" height="25" class="d-block mx-auto" alt="">
+            </div>
+            <div class="sk-chase mt-4">
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
             </div>
         </div>
-        <!-- Loader End -->
+    </div>
+    <!-- Loader End -->
 
-        <!-- Navbar STart -->
-        <header id="topnav" class="defaultscroll sticky bg-white">
-            <div class="container">
-                <!-- Logo container-->
-                <div>
-                    <a class="logo" href="index.html">
-                        <img src="images/logo-dark.png" height="22" alt="">
+    <!-- Navbar STart -->
+    <header id="topnav" class="defaultscroll sticky">
+        <div class="container">
+            <!-- Logo container-->
+            <div>
+                <a class="logo" href="golf.html">
+                    <img src="images/logo-dark-golf.png" height="22" alt="">
+                </a>
+            </div>
+            <div class="buy-button">
+                <a href="javascript:void(0)" class="btn btn-primary">Login</a>
+            </div>
+            
+            <!--end login button-->
+            <!-- End Logo container-->
+            <div class="menu-extras">
+                <div class="menu-item">
+                    <!-- Mobile menu toggle-->
+                    <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                        <div class="lines">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </a>
-                </div>                 
-                <div class="buy-button">
-                    <a href="signup.html" class="btn btn-primary">Signup</a>
-                </div><!--end login button-->
-                <!-- End Logo container-->
-                <div class="menu-extras">
-                    <div class="menu-item">
-                        <!-- Mobile menu toggle-->
-                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
-                            <div class="lines">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                        </a>
-                        <!-- End mobile menu toggle-->
-                    </div>
+                    <!-- End mobile menu toggle-->
                 </div>
-        
-                <div id="navigation">
-                    <!-- Navigation Menu-->   
-                    <ul class="navigation-menu">
-                        <li><a href="features.html" class="sub-menu-item">Features</a></li>
-                        <li><a href="app.html" class="sub-menu-item">App</a></li>
-                        <li><a href="modules.html" class="sub-menu-item">Modules</a></li>
-                        <li class="has-submenu parent-menu-item">
-                            <a href="javascript:void(0)">Home</a><span class="menu-arrow"></span>
-                            <ul class="submenu">
-                                <li><a href="index.html" class="sub-menu-item">Home One</a></li>
-                                <li><a href="index-two.html" class="sub-menu-item">Home Two</a></li>
-                                <li><a href="index-three.html" class="sub-menu-item">Home Three</a></li>
-                                <li><a href="index-four.html" class="sub-menu-item">Home Four</a></li>
-                                <li><a href="index-five.html" class="sub-menu-item">Home Five</a></li>
-                                <li><a href="index-six.html" class="sub-menu-item">Home Six</a></li>
-                                <li><a href="index-onepage.html" class="sub-menu-item">One Page</a></li>
-                            </ul>
-                        </li>
-        
-                        <li class="has-submenu parent-menu-item">
-                            <a href="javascript:void(0)">Pages</a><span class="menu-arrow"></span>
-                            <ul class="submenu">
-                                <li><a href="about.html" class="sub-menu-item">Company</a></li>
-                                <li><a href="services.html" class="sub-menu-item">Services</a></li>
-                                <li><a href="faqs.html" class="sub-menu-item">FAQs</a></li>
-                                <li><a href="login.html" class="sub-menu-item">Login</a></li>
-                                <li><a href="signup.html" class="sub-menu-item">Signup</a></li>
-                                <li><a href="reset-password.html" class="sub-menu-item">Reset Password</a></li>
-                                <li><a href="404.html" class="sub-menu-item">404</a></li>
-                            </ul>
-                        </li>
+            </div>
 
-                        <li class="has-submenu parent-menu-item">
-                            <a href="javascript:void(0)">Blog</a><span class="menu-arrow"></span>
-                            <ul class="submenu">
-                                <li><a href="blog.html" class="sub-menu-item">Blog</a></li>
-                                <li><a href="blog-detail.html" class="sub-menu-item">Single Blog</a></li>
-                            </ul>
-                        </li>
+            <div id="navigation">
+                <!-- Navigation Menu-->
+                <ul class="navigation-menu" id="navmenu-nav">
+                    <!-- <li class="has-submenu">
+                        <a href="#home">Home</a>
+                    </li> -->
 
-                        <li><a href="contact.html" class="sub-menu-item">Contact</a></li>
-                    </ul><!--end navigation menu-->
-                </div><!--end navigation-->
-            </div><!--end container-->
-        </header><!--end header-->
-        <!-- Navbar End -->
+                    <!-- <li class="has-submenu parent-menu-item">
+                        <a href="javascript:void(0)">Home</a><span class="menu-arrow"></span>
+                        <ul class="submenu">
+                            <li><a href="index.html" class="sub-menu-item">Golf</a></li>
+                            <li><a href="index-two.html" class="sub-menu-item">Gyms</a></li>
+                            <li><a href="index-three.html" class="sub-menu-item">Home Three</a></li>
+                            <li><a href="index-four.html" class="sub-menu-item">Home Four</a></li>
+                            <li><a href="index-five.html" class="sub-menu-item">Home Five</a></li>
+                            <li><a href="index-six.html" class="sub-menu-item">Home Six</a></li>
+                            <li><a href="index-onepage.html" class="sub-menu-item">One Page</a></li>
+                        </ul>
+                    </li> -->
+
+                    <li class="has-submenu">
+                        <a href="#features">Features</a><span class="menu-arrow"></span>
+                        <ul class="submenu">
+                            <li><a href="#client" class="sub-menu-item">Client Booking Management</a></li>
+                            <li><a href="#real" class="sub-menu-item">Real-time channel management</a></li>
+                            <li><a href="#live" class="sub-menu-item">Live Revenue Management</a></li>
+                            <li><a href="#report" class="sub-menu-item">Reporting</a></li>
+                            <li><a href="#tailor" class="sub-menu-item">Tailored App </a></li>
+                            <li><a href="#multi" class="sub-menu-item">Multi Activity Packaging</a></li>
+                            <li><a href="#wallet" class="sub-menu-item">Wallet Manager (only live with the Mango
+                                    Pay)</a></li>
+                            <li><a href="#social" class="sub-menu-item">Social ranking and client communications </a>
+                            </li>
+                            <li><a href="#course" class="sub-menu-item">Courses and multi experience packages</a></li>
+                            <li><a href="#market" class="sub-menu-item">Market Place</a></li>
+
+
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#app">App</a>
+                        
+                    </li>
+                    <li class="has-submenu">
+                        <a href="services.html">Modules</a><span class="menu-arrow"></span>
+                        <ul class="submenu">
+                            <li><a href="#client" class="sub-menu-item">Coach Module</a></li>
+                            <li><a href="#real" class="sub-menu-item">Academy Module</a></li>
+                            <li><a href="#live" class="sub-menu-item">Tee Sheet Module</a></li>
+                            <li><a href="#report" class="sub-menu-item">Adventure Golf Module</a></li>
+                            <li><a href="#tailor" class="sub-menu-item">Driving Range Module </a></li>
+                            <li><a href="#multi" class="sub-menu-item">Buggy Module</a></li>
+                            <li><a href="#wallet" class="sub-menu-item">Retail & F&B (for Enterprise clients only)</a></li>
+                            <li><a href="#social" class="sub-menu-item">Membership Module (for Enterprise clients only) </a>
+                            </li>
+                       
+
+
+                        </ul>
+                    </li>
+
+                    <li><a href="golf-business.html" class="sub-menu-item"><span class="for">for</span> Business</a></li>
+
+                    <li><a href="golf-ent.html" class="sub-menu-item"><span class="for">for</span> Enterprise</a></li>
+
+                    <!-- <li class="has-submenu">
+                            <a href="#pricing">Pricing</a>
+                        </li> -->
+                    <!-- <li class="has-submenu">
+                            <a href="#review">Testimonial</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="#blogs">Blog & News</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="#contact">Contact</a>
+                        </li> -->
+                </ul>
+                <!--end navigation menu-->
+            </div>
+            <!--end navigation-->
+        </div>
+        <!--end container-->
+    </header>
+    <!--end header-->
+    <!-- Navbar End -->
 
         <!-- Hero Start -->
         <section class="bg-half bg-light d-table w-100">
@@ -118,11 +162,11 @@
                     <div class="col-lg-12 text-center">
                         <div class="title-heading">
                             <h4>What We Offer ?</h4>
-                            <p class="text-muted para-desc mx-auto mt-3 mb-0">Introduce features and what features are provide.</p> 
+                            <p class="text-muted para-desc mx-auto mt-3 mb-0">Introduce modules and what features are provide.</p> 
                             <nav aria-label="breadcrumb" class="d-inline-block mt-4">
                                 <ul class="breadcrumb mb-0">
-                                    <li class="breadcrumb-item"><a href="index.html">Appgen</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Services</li>
+                                    <li class="breadcrumb-item"><a href="index.html">fibodo</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">modules</li>
                                 </ul>
                             </nav>
                         </div>
@@ -139,7 +183,7 @@
         <section class="section" id="services">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 col-12">
+                    <div class="col-lg-3 col-md-6 col-12">
                         <div class="feature position-relative text-center">
                             <div class="p-4 rounded position-relative overflow-hidden">
                                 <div class="icon text-primary">
@@ -147,7 +191,23 @@
                                     <img src="images/shape-1.png" class="avatar avatar-small icon-shape" alt="">
                                 </div>
                                 <div class="content mt-4">
-                                    <h5><a href="javascript:void(0)" class="title text-dark">Store Integration</a></h5>
+                                    <h5><a href="javascript:void(0)" class="title text-dark">Coach Module</a></h5>
+                                    <p class="text-muted">Due to its widespread use as filler text for layouts, non-readability is of great importance</p>
+                                    <a target="_blank" href="golf-coach.html" class="text-primary">Read More <i data-feather="chevron-right" class="fea icon-sm"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="feature position-relative text-center">
+                            <div class="p-4 rounded position-relative overflow-hidden">
+                                <div class="icon text-primary">
+                                    <i class="uim uim-download-alt"></i>
+                                    <img src="images/shape-1.png" class="avatar avatar-small icon-shape" alt="">
+                                </div>
+                                <div class="content mt-4">
+                                    <h5><a href="javascript:void(0)" class="title text-dark">Academy Module</a></h5>
                                     <p class="text-muted">Due to its widespread use as filler text for layouts, non-readability is of great importance</p>
                                     <a href="javascript:void(0)" class="text-primary">Read More <i data-feather="chevron-right" class="fea icon-sm"></i></a>
                                 </div>
@@ -155,7 +215,23 @@
                         </div>
                     </div><!--end col-->
 
-                    <div class="col-lg-4 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="feature position-relative text-center">
+                            <div class="p-4 rounded position-relative overflow-hidden">
+                                <div class="icon text-primary">
+                                    <i class="uim uim-download-alt"></i>
+                                    <img src="images/shape-1.png" class="avatar avatar-small icon-shape" alt="">
+                                </div>
+                                <div class="content mt-4">
+                                    <h5><a href="javascript:void(0)" class="title text-dark">Tee Sheet Module</a></h5>
+                                    <p class="text-muted">Due to its widespread use as filler text for layouts, non-readability is of great importance</p>
+                                    <a href="javascript:void(0)" class="text-primary">Read More <i data-feather="chevron-right" class="fea icon-sm"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <div class="feature position-relative text-center">
                             <div class="p-4 rounded position-relative overflow-hidden">
                                 <div class="icon text-primary">
@@ -163,7 +239,7 @@
                                     <img src="images/shape-1.png" class="avatar avatar-small icon-shape" alt="">
                                 </div>
                                 <div class="content mt-4">
-                                    <h5><a href="javascript:void(0)" class="title text-dark">Data Protection</a></h5>
+                                    <h5><a href="javascript:void(0)" class="title text-dark">Adventure Golf Module</a></h5>
                                     <p class="text-muted">Due to its widespread use as filler text for layouts, non-readability is of great importance</p>
                                     <a href="javascript:void(0)" class="text-primary">Read More <i data-feather="chevron-right" class="fea icon-sm"></i></a>
                                 </div>
@@ -171,7 +247,7 @@
                         </div>
                     </div><!--end col-->
 
-                    <div class="col-lg-4 col-md-6 col-12 mt-4 mt-lg-0 pt-2 pt-lg-0">
+                    <!-- <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0 pt-2 pt-lg-0">
                         <div class="feature position-relative text-center">
                             <div class="p-4 rounded position-relative overflow-hidden">
                                 <div class="icon text-primary">
@@ -185,9 +261,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div><!--end col-->
+                    </div> -->
 
-                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
                         <div class="feature position-relative text-center">
                             <div class="p-4 rounded position-relative overflow-hidden">
                                 <div class="icon text-primary">
@@ -195,7 +271,7 @@
                                     <img src="images/shape-1.png" class="avatar avatar-small icon-shape" alt="">
                                 </div>
                                 <div class="content mt-4">
-                                    <h5><a href="javascript:void(0)" class="title text-dark">Auto Responder</a></h5>
+                                    <h5><a href="javascript:void(0)" class="title text-dark">Driving Range Module</a></h5>
                                     <p class="text-muted">Due to its widespread use as filler text for layouts, non-readability is of great importance</p>
                                     <a href="javascript:void(0)" class="text-primary">Read More <i data-feather="chevron-right" class="fea icon-sm"></i></a>
                                 </div>
@@ -203,7 +279,23 @@
                         </div>
                     </div><!--end col-->
 
-                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                        <div class="feature position-relative text-center">
+                            <div class="p-4 rounded position-relative overflow-hidden">
+                                <div class="icon text-primary">
+                                    <i class="uim uim-flip-v"></i>
+                                    <img src="images/shape-1.png" class="avatar avatar-small icon-shape" alt="">
+                                </div>
+                                <div class="content mt-4">
+                                    <h5><a href="javascript:void(0)" class="title text-dark">Buggy Module</a></h5>
+                                    <p class="text-muted">Due to its widespread use as filler text for layouts, non-readability is of great importance</p>
+                                    <a href="javascript:void(0)" class="text-primary">Read More <i data-feather="chevron-right" class="fea icon-sm"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
                         <div class="feature position-relative text-center">
                             <div class="p-4 rounded position-relative overflow-hidden">
                                 <div class="icon text-primary">
@@ -211,7 +303,7 @@
                                     <img src="images/shape-1.png" class="avatar avatar-small icon-shape" alt="">
                                 </div>
                                 <div class="content mt-4">
-                                    <h5><a href="javascript:void(0)" class="title text-dark">Social Plugins</a></h5>
+                                    <h5><a href="javascript:void(0)" class="title text-dark">Retail & F&B (for Enterprise clients only)</a></h5>
                                     <p class="text-muted">Due to its widespread use as filler text for layouts, non-readability is of great importance</p>
                                     <a href="javascript:void(0)" class="text-primary">Read More <i data-feather="chevron-right" class="fea icon-sm"></i></a>
                                 </div>
@@ -219,7 +311,7 @@
                         </div>
                     </div><!--end col-->
 
-                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
                         <div class="feature position-relative text-center">
                             <div class="p-4 rounded position-relative overflow-hidden">
                                 <div class="icon text-primary">
@@ -227,7 +319,7 @@
                                     <img src="images/shape-1.png" class="avatar avatar-small icon-shape" alt="">
                                 </div>
                                 <div class="content mt-4">
-                                    <h5><a href="javascript:void(0)" class="title text-dark">Data Backup</a></h5>
+                                    <h5><a href="javascript:void(0)" class="title text-dark">Membership Module (for Enterprise clients only)</a></h5>
                                     <p class="text-muted">Due to its widespread use as filler text for layouts, non-readability is of great importance</p>
                                     <a href="javascript:void(0)" class="text-primary">Read More <i data-feather="chevron-right" class="fea icon-sm"></i></a>
                                 </div>

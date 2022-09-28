@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>golf | home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="App and Saas Landing Template" />
+    <meta name="keywords" content="Application, Clean, Saas, Dashboard, Bootstrap 5" />
+    <meta content="Shreethemes" name="author" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/logo-icon-golf.ico">
+    <!-- Bootstrap css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- Icons -->
+    <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+    <!-- Slider -->
+    <link rel="stylesheet" href="css/tiny-slider.css" />
+    <!-- Main css File -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!-- Loader Start -->
+    <div id="preloader">
+        <div id="status">
+            <div class="logo">
+                <img src="images/logo-dark-golf.png" height="25" class="d-block mx-auto" alt="">
+            </div>
+            <div class="sk-chase mt-4">
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Loader End -->
+
+    <!-- Navbar STart -->
+    <header id="topnav" class="defaultscroll sticky">
+        <div class="container">
+            <!-- Logo container-->
+            <div>
+                <a class="logo" href="golf.html">
+                    <img src="images/logo-dark-golf.png" height="22" alt="">
+                </a>
+            </div>
+            <div class="buy-button">
+                <a href="javascript:void(0)" class="btn btn-primary">Login</a>
+            </div>
+            
+            <!--end login button-->
+            <!-- End Logo container-->
+            <div class="menu-extras">
+                <div class="menu-item">
+                    <!-- Mobile menu toggle-->
+                    <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                        <div class="lines">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                    <!-- End mobile menu toggle-->
+                </div>
+            </div>
+
+            <div id="navigation">
+                <!-- Navigation Menu-->
+                <ul class="navigation-menu" id="navmenu-nav">
+                    <!-- <li class="has-submenu">
+                        <a href="#home">Home</a>
+                    </li> -->
+
+                    <!-- <li class="has-submenu parent-menu-item">
+                        <a href="javascript:void(0)">Home</a><span class="menu-arrow"></span>
+                        <ul class="submenu">
+                            <li><a href="index.html" class="sub-menu-item">Golf</a></li>
+                            <li><a href="index-two.html" class="sub-menu-item">Gyms</a></li>
+                            <li><a href="index-three.html" class="sub-menu-item">Home Three</a></li>
+                            <li><a href="index-four.html" class="sub-menu-item">Home Four</a></li>
+                            <li><a href="index-five.html" class="sub-menu-item">Home Five</a></li>
+                            <li><a href="index-six.html" class="sub-menu-item">Home Six</a></li>
+                            <li><a href="index-onepage.html" class="sub-menu-item">One Page</a></li>
+                        </ul>
+                    </li> -->
+
+                    <li class="has-submenu">
+                        <a href="#features">Features</a><span class="menu-arrow"></span>
+                        <ul class="submenu">
+                            <li><a href="#client" class="sub-menu-item">Client Booking Management</a></li>
+                            <li><a href="#real" class="sub-menu-item">Real-time channel management</a></li>
+                            <li><a href="#live" class="sub-menu-item">Live Revenue Management</a></li>
+                            <li><a href="#report" class="sub-menu-item">Reporting</a></li>
+                            <li><a href="#tailor" class="sub-menu-item">Tailored App </a></li>
+                            <li><a href="#multi" class="sub-menu-item">Multi Activity Packaging</a></li>
+                            <li><a href="#wallet" class="sub-menu-item">Wallet Manager (only live with the Mango
+                                    Pay)</a></li>
+                            <li><a href="#social" class="sub-menu-item">Social ranking and client communications </a>
+                            </li>
+                            <li><a href="#course" class="sub-menu-item">Courses and multi experience packages</a></li>
+                            <li><a href="#market" class="sub-menu-item">Market Place</a></li>
+
+
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#app">App</a>
+                        
+                    </li>
+                    <li class="has-submenu">
+                        <a href="services.html">Modules</a><span class="menu-arrow"></span>
+                        <ul class="submenu">
+                            <li><a href="#client" class="sub-menu-item">Coach Module</a></li>
+                            <li><a href="#real" class="sub-menu-item">Academy Module</a></li>
+                            <li><a href="#live" class="sub-menu-item">Tee Sheet Module</a></li>
+                            <li><a href="#report" class="sub-menu-item">Adventure Golf Module</a></li>
+                            <li><a href="#tailor" class="sub-menu-item">Driving Range Module </a></li>
+                            <li><a href="#multi" class="sub-menu-item">Buggy Module</a></li>
+                            <li><a href="#wallet" class="sub-menu-item">Retail & F&B (for Enterprise clients only)</a></li>
+                            <li><a href="#social" class="sub-menu-item">Membership Module (for Enterprise clients only) </a>
+                            </li>
+                       
+
+
+                        </ul>
+                    </li>
+
+                    <li><a href="golf-business.html" class="sub-menu-item"><span class="for">for</span> Business</a></li>
+
+                    <li><a href="golf-ent.html" class="sub-menu-item"><span class="for">for</span> Enterprise</a></li>
+
+                    <!-- <li class="has-submenu">
+                            <a href="#pricing">Pricing</a>
+                        </li> -->
+                    <!-- <li class="has-submenu">
+                            <a href="#review">Testimonial</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="#blogs">Blog & News</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="#contact">Contact</a>
+                        </li> -->
+                </ul>
+                <!--end navigation menu-->
+            </div>
+            <!--end navigation-->
+        </div>
+        <!--end container-->
+    </header>
+    <!--end header-->
+    <!-- Navbar End -->
+
+        <!-- Hero Start -->
+        <section class="bg-half bg-light d-table w-100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <div class="title-heading">
+                            <h4>What We Offer ?</h4>
+                            <p class="text-muted para-desc mx-auto mt-3 mb-0">Introduce modules and what features are provide.</p> 
+                            <nav aria-label="breadcrumb" class="d-inline-block mt-4">
+                                <ul class="breadcrumb mb-0">
+                                    <li class="breadcrumb-item"><a href="index.html">fibodo</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">modules</li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div><!--end col-->
+                    <div class="home-shape-arrow">
+                        <a href="#services" class="scroll-down"><i class="mdi mdi-arrow-down arrow-icon bg-light text-dark h5"></i></a>
+                    </div>
+                </div><!--end row-->
+            </div> <!--end container-->
+        </section><!--end section-->
+        <!-- Hero End -->
+
+
+
+
+    <div class="container mt-100 mt-60">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="feature position-relative">
+                    <img src="images/saas/features-1.png" class="img-fluid" alt="">
+                </div>
+            </div>
+            <!--end col-->
+
+            <div id="client" class="col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                <div class="section-title">
+                    <h5 class="title mb-4">Client Booking <br>Management </h5>
+                    <p class="text-muted para-desc">This module is perfect for the individual golf coach seeking to
+                        manage and grow their business, without having to take valuable time away from their customers
+                        or personal time to administer, communicate and manage their business. No more pieces of paper
+                        with incomplete messages from the pro-shop, no more interrupted lessons or missed bookings
+                        whilst you are trying to provide a quality service experience to your clients.</p>
+                    <ul class="list-unstyled">
+                        <li class="mt-2"><i data-feather="check-circle"
+                                class="fea icon-sm text-primary me-2"></i>Digital Marketing Solutions for Tomorrow
+                        </li>
+                        <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Our
+                            Talented & Experienced Marketing
+                            Agency</li>
+                        <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Create
+                            your own skin to match your brand
+                        </li>
+                    </ul>
+                    <div class="mt-4">
+                        <a href="javascript:void(0)" class="btn btn-primary">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <!--end col-->
+        </div>
+        <!--end row-->
+    </div>
+    <!--end container-->
+
+    <div class="container mt-100 mt-60">
+        <div class="row align-items-center">
+            <div class="col-md-6 order-1 order-md-2">
+                <div class="feature position-relative">
+                    <img src="images/saas/features-2.png" class="img-fluid d-block mx-auto" alt="">
+                </div>
+            </div>
+            <!--end col-->
+
+            <div id="real" class="col-md-6 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                <div class="section-title">
+                    <h5 class="title mb-4">Real-time channel management</h5>
+                    <p class="text-muted para-desc">FIBODO instantly distributes all your inventory on line,
+                        offering your clients the opportunity to book your services in any combination you want them
+                        to, at a time convenient to them. FIBODO’s seamless sales promotion tools, allow you to
+                        target selected audiences with booking incentives using business defined promotion codes,
+                        whilst maximising revenues from those customers whose priority is time over price. Using
+                        your tailored FIBODO App means that you have the opportunity to build relationships with all
+                        you known clients, targeting them to drive your business.</p>
+                    <ul class="list-unstyled">
+                        <li class="mt-2"><i data-feather="check-circle"
+                                class="fea icon-sm text-primary me-2"></i>Digital Marketing Solutions for Tomorrow
+                        </li>
+                        <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Our
+                            Talented & Experienced Marketing
+                            Agency</li>
+                        <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Create
+                            your own skin to match your brand
+                        </li>
+                    </ul>
+                    <div class="watch-video mt-4">
+                        <a href="javascript:void(0)" class="btn btn-primary mb-2 me-2">Read More</a>
+                        <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#watchvideomodal"
+                            class="video-play-icon watch title-dark text-dark mb-2"><i
+                                class="mdi mdi-play play-icon-circle text-center d-inline-block me-2 rounded-pill text-white title-dark position-relative play play-iconbar"></i>
+                            Watch Now</a>
+                    </div>
+                </div>
+            </div>
+            <!--end col-->
+        </div>
+        <!--end row-->
+
+
+
+
+
+        <div class="container mt-100 mt-60">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="feature position-relative">
+                        <img src="images/saas/features-1.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div id="live" class="col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <div class="section-title">
+                        <h5 class="title mb-4">Live Revenue Management </h5>
+                        <p class="text-muted para-desc">FIBODO revenue management provides businesses with the
+                            opportunity to define their pricing strategy based on product profitability,
+                            automatically adjusting product availability based on business demand. This means that
+                            you can be sure you are always selling your products at the optimal price and in
+                            accordance with your strategic objectives, whether you are in the business or on
+                            holidays half way around the globe. </p>
+                        <ul class="list-unstyled">
+                            <li class="mt-2"><i data-feather="check-circle"
+                                    class="fea icon-sm text-primary me-2"></i>Digital Marketing Solutions for
+                                Tomorrow
+                            </li>
+                            <li class="mt-2"><i data-feather="check-circle"
+                                    class="fea icon-sm text-primary me-2"></i>Our Talented & Experienced Marketing
+                                Agency</li>
+                            <li class="mt-2"><i data-feather="check-circle"
+                                    class="fea icon-sm text-primary me-2"></i>Create your own skin to match your
+                                brand
+                            </li>
+                        </ul>
+                        <div class="mt-4">
+                            <a href="javascript:void(0)" class="btn btn-primary">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+
+        <div class="container mt-100 mt-60">
+            <div class="row align-items-center">
+                <div class="col-md-6 order-1 order-md-2">
+                    <div class="feature position-relative">
+                        <img src="images/saas/features-2.png" class="img-fluid d-block mx-auto" alt="">
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div id="report" class="col-md-6 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <div class="section-title">
+                        <h5 class="title mb-4">Reporting</h5>
+                        <p class="text-muted para-desc">FIBODO Reporting is included with all modules and provides
+                            unparalleled reporting on your business performance. Reports are provided in multiple
+                            formats, from simple dashboard, to detailed numerical content. Reports automatically
+                            export to CSV files making them readily accessible to main stream accounting and
+                            analytics systems. Sales reporting provides for segmentation, date ranging, including
+                            combining future and past bookings within the same report. FIBODO reports are consistent
+                            with each other and accurate, so you can rely on them to inform your business strategy.
+                        </p>
+                        <ul class="list-unstyled">
+                            <li class="mt-2"><i data-feather="check-circle"
+                                    class="fea icon-sm text-primary me-2"></i>Digital Marketing Solutions for
+                                Tomorrow
+                            </li>
+                            <li class="mt-2"><i data-feather="check-circle"
+                                    class="fea icon-sm text-primary me-2"></i>Our Talented & Experienced Marketing
+                                Agency</li>
+                            <li class="mt-2"><i data-feather="check-circle"
+                                    class="fea icon-sm text-primary me-2"></i>Create your own skin to match your
+                                brand
+                            </li>
+                        </ul>
+                        <div class="watch-video mt-4">
+                            <a href="javascript:void(0)" class="btn btn-primary mb-2 me-2">Read More</a>
+                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#watchvideomodal"
+                                class="video-play-icon watch title-dark text-dark mb-2"><i
+                                    class="mdi mdi-play play-icon-circle text-center d-inline-block me-2 rounded-pill text-white title-dark position-relative play play-iconbar"></i>
+                                Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+
+
+
+
+            <div class="container mt-100 mt-60">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="feature position-relative">
+                            <img src="images/saas/features-1.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <!--end col-->
+
+                    <div id="tailor" class="col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="section-title">
+                            <h5 class="title mb-4">Tailored App</h5>
+                            <p class="text-muted para-desc">FIBODO provides application platforms for both IOS and
+                                Android that seamlessly integrate into your client management system, allowing you
+                                to create your own full integrated client ecosystem. The functionality of the App
+                                makes your clients booking journey easier, improves their engagement with your
+                                services and experiences (live content and direct in App messaging) and always
+                                ensures you are with them at all times, as their preferred partner and service
+                                provider.</p>
+                            <ul class="list-unstyled">
+                                <li class="mt-2"><i data-feather="check-circle"
+                                        class="fea icon-sm text-primary me-2"></i>Digital Marketing Solutions for
+                                    Tomorrow
+                                </li>
+                                <li class="mt-2"><i data-feather="check-circle"
+                                        class="fea icon-sm text-primary me-2"></i>Our Talented & Experienced
+                                    Marketing
+                                    Agency</li>
+                                <li class="mt-2"><i data-feather="check-circle"
+                                        class="fea icon-sm text-primary me-2"></i>Create your own skin to match your
+                                    brand
+                                </li>
+                            </ul>
+                            <div class="mt-4">
+                                <a href="javascript:void(0)" class="btn btn-primary">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+
+
+
+
+
+
+
+            <!-- App -->
+
+            <div class="container mt-100 mt-60">
+                <div class="row align-items-center">
+                    <div class="col-md-6 order-1 order-md-2">
+                        <div class="feature position-relative">
+                            <img src="images/saas/features-2.png" class="img-fluid d-block mx-auto" alt="">
+                        </div>
+                    </div>
+                    <!--end col-->
+
+                    <div id="multi" class="col-md-6 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="section-title">
+                            <h5 class="title mb-4">Multi Activity Packaging</h5>
+                            <p class="text-muted para-desc">FIBODO is designed to allow customers to build their own
+                                activity planners. Once you make your inventory, courses or equipment available to
+                                purchase, your customers can build their own tailored packages. You can also develop
+                                your own product packaging, with full real time equipment inventory and facility
+                                control, making sure that shared facilities are not double booked and that you have
+                                the necessary equipment and space available to perform the activity booked. </p>
+                            <ul class="list-unstyled">
+                                <li class="mt-2"><i data-feather="check-circle"
+                                        class="fea icon-sm text-primary me-2"></i>Digital Marketing Solutions for
+                                    Tomorrow
+                                </li>
+                                <li class="mt-2"><i data-feather="check-circle"
+                                        class="fea icon-sm text-primary me-2"></i>Our Talented & Experienced
+                                    Marketing
+                                    Agency</li>
+                                <li class="mt-2"><i data-feather="check-circle"
+                                        class="fea icon-sm text-primary me-2"></i>Create your own skin to match your
+                                    brand
+                                </li>
+                            </ul>
+                            <div class="watch-video mt-4">
+                                <a href="javascript:void(0)" class="btn btn-primary mb-2 me-2">Read More</a>
+                                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#watchvideomodal"
+                                    class="video-play-icon watch title-dark text-dark mb-2"><i
+                                        class="mdi mdi-play play-icon-circle text-center d-inline-block me-2 rounded-pill text-white title-dark position-relative play play-iconbar"></i>
+                                    Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+
+
+            <div class="container mt-100 mt-60">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="feature position-relative">
+                            <img src="images/saas/features-1.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <!--end col-->
+
+                    <div id="wallet" class="col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="section-title">
+                            <h5 class="title mb-4">Wallet</h5>
+                            <p class="text-muted para-desc">FIBODO provides application platforms for both IOS and
+                                Android that seamlessly integrate into your client management system, allowing you
+                                to create your own full integrated client ecosystem. The functionality of the App
+                                makes your clients booking journey easier, improves their engagement with your
+                                services and experiences (live content and direct in App messaging) and always
+                                ensures you are with them at all times, as their preferred partner and service
+                                provider.</p>
+                            <ul class="list-unstyled">
+                                <li class="mt-2"><i data-feather="check-circle"
+                                        class="fea icon-sm text-primary me-2"></i>Digital Marketing Solutions for
+                                    Tomorrow
+                                </li>
+                                <li class="mt-2"><i data-feather="check-circle"
+                                        class="fea icon-sm text-primary me-2"></i>Our Talented & Experienced
+                                    Marketing
+                                    Agency</li>
+                                <li class="mt-2"><i data-feather="check-circle"
+                                        class="fea icon-sm text-primary me-2"></i>Create your own skin to match your
+                                    brand
+                                </li>
+                            </ul>
+                            <div class="mt-4">
+                                <a href="javascript:void(0)" class="btn btn-primary">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+
+
+
+
+
+
+
+            <!-- App -->
+
+            <div class="container mt-100 mt-60">
+                <div class="row align-items-center">
+                    <div class="col-md-6 order-1 order-md-2">
+                        <div class="feature position-relative">
+                            <img src="images/saas/features-2.png" class="img-fluid d-block mx-auto" alt="">
+                        </div>
+                    </div>
+                    <!--end col-->
+
+                    <div id="multi" class="col-md-6 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="section-title">
+                            <h5 class="title mb-4">Social</h5>
+                            <p class="text-muted para-desc">FIBODO is designed to allow customers to build their own
+                                activity planners. Once you make your inventory, courses or equipment available to
+                                purchase, your customers can build their own tailored packages. You can also develop
+                                your own product packaging, with full real time equipment inventory and facility
+                                control, making sure that shared facilities are not double booked and that you have
+                                the necessary equipment and space available to perform the activity booked. </p>
+                            <ul class="list-unstyled">
+                                <li class="mt-2"><i data-feather="check-circle"
+                                        class="fea icon-sm text-primary me-2"></i>Digital Marketing Solutions for
+                                    Tomorrow
+                                </li>
+                                <li class="mt-2"><i data-feather="check-circle"
+                                        class="fea icon-sm text-primary me-2"></i>Our Talented & Experienced
+                                    Marketing
+                                    Agency</li>
+                                <li class="mt-2"><i data-feather="check-circle"
+                                        class="fea icon-sm text-primary me-2"></i>Create your own skin to match your
+                                    brand
+                                </li>
+                            </ul>
+                            <div class="watch-video mt-4">
+                                <a href="javascript:void(0)" class="btn btn-primary mb-2 me-2">Read More</a>
+                                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#watchvideomodal"
+                                    class="video-play-icon watch title-dark text-dark mb-2"><i
+                                        class="mdi mdi-play play-icon-circle text-center d-inline-block me-2 rounded-pill text-white title-dark position-relative play play-iconbar"></i>
+                                    Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="feature position-relative">
+                            <img src="images/saas/features-1.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <!--end col-->
+
+                    <div id="course" class="col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="section-title">
+                            <h5 class="title mb-4">Courses and multi experience packages</h5>
+                            <p class="text-muted para-desc">FIBODO provides application platforms for both IOS and
+                                Android that seamlessly integrate into your client management system, allowing you
+                                to create your own full integrated client ecosystem. The functionality of the App
+                                makes your clients booking journey easier, improves their engagement with your
+                                services and experiences (live content and direct in App messaging) and always
+                                ensures you are with them at all times, as their preferred partner and service
+                                provider.</p>
+                            <ul class="list-unstyled">
+                                <li class="mt-2"><i data-feather="check-circle"
+                                        class="fea icon-sm text-primary me-2"></i>Digital Marketing Solutions for
+                                    Tomorrow
+                                </li>
+                                <li class="mt-2"><i data-feather="check-circle"
+                                        class="fea icon-sm text-primary me-2"></i>Our Talented & Experienced
+                                    Marketing
+                                    Agency</li>
+                                <li class="mt-2"><i data-feather="check-circle"
+                                        class="fea icon-sm text-primary me-2"></i>Create your own skin to match your
+                                    brand
+                                </li>
+                            </ul>
+                            <div class="mt-4">
+                                <a href="javascript:void(0)" class="btn btn-primary">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+
+
+
+
+
+
+
+            <!-- App -->
+
+            <div class="container mt-100 mt-60">
+                <div class="row align-items-center">
+                    <div class="col-md-6 order-1 order-md-2">
+                        <div class="feature position-relative">
+                            <img src="images/saas/features-2.png" class="img-fluid d-block mx-auto" alt="">
+                        </div>
+                    </div>
+                    <!--end col-->
+
+                    <div id="market" class="col-md-6 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="section-title">
+                            <h5 class="title mb-4">Market Place</h5>
+                            <p class="text-muted para-desc">FIBODO is designed to allow customers to build their own
+                                activity planners. Once you make your inventory, courses or equipment available to
+                                purchase, your customers can build their own tailored packages. You can also develop
+                                your own product packaging, with full real time equipment inventory and facility
+                                control, making sure that shared facilities are not double booked and that you have
+                                the necessary equipment and space available to perform the activity booked. </p>
+                            <ul class="list-unstyled">
+                                <li class="mt-2"><i data-feather="check-circle"
+                                        class="fea icon-sm text-primary me-2"></i>Digital Marketing Solutions for
+                                    Tomorrow
+                                </li>
+                                <li class="mt-2"><i data-feather="check-circle"
+                                        class="fea icon-sm text-primary me-2"></i>Our Talented & Experienced
+                                    Marketing
+                                    Agency</li>
+                                <li class="mt-2"><i data-feather="check-circle"
+                                        class="fea icon-sm text-primary me-2"></i>Create your own skin to match your
+                                    brand
+                                </li>
+                            </ul>
+                            <div class="watch-video mt-4">
+                                <a href="javascript:void(0)" class="btn btn-primary mb-2 me-2">Read More</a>
+                                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#watchvideomodal"
+                                    class="video-play-icon watch title-dark text-dark mb-2"><i
+                                        class="mdi mdi-play play-icon-circle text-center d-inline-block me-2 rounded-pill text-white title-dark position-relative play play-iconbar"></i>
+                                    Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+            </section>
+            <!--end section-->
+            </section>
+            <!--end section-->
+            </section>
+            <!--end section-->
+            <!-- Features End -->
+
+
+
+            <!-- Download Start -->
+            <section class="section" id="app">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <img src="images/app/mobile-2.png" class="img-fluid d-block mx-auto" alt="">
+                        </div>
+                        <!--end col-->
+
+                        <div class="col-lg-6 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                            <div class="section-title">
+                                <div class="alert alert-light alert-pills" role="alert">
+                                    <span class="badge bg-dark rounded-pill me-1">Apps</span>
+                                    <span class="content">Download now <i data-feather="chevron-right"
+                                            class="fea icon-sm"></i></span>
+                                </div>
+                                <h4 class="title mb-4 mt-2">Available for your <br> Smartphones</h4>
+                                <p class="text-muted para-desc mb-0">It is a long established fact that a reader will be
+                                    distracted by the readable content of a page when looking at its layout.</p>
+                                <p class="text-muted para-desc mb-0">We are now in the era of the mobile device. Whilst
+                                    web applications remain key tools in business
+                                    management, consumers are increasing looking to engage on their mobile devices. If
+                                    you don’t
+                                    have a mobile APP you are making this more difficult for your consumers and
+                                    increasing the risk
+                                    that they will come across other service providers as they browse their social media
+                                    and web
+                                    search engines.</p>
+                                <div class="mt-4 mb-4">
+                                    <a href="javascript:void(0)" class="btn btn-pills btn-lg btn-primary mt-2 me-2"><i
+                                            class="mdi mdi-apple"></i> App Store</a>
+                                    <a href="javascript:void(0)" class="btn btn-pills btn-lg btn-primary mt-2"><i
+                                            class="mdi mdi-google-play"></i> Play Store</a>
+                                </div>
+
+                                <div class="d-inline-block">
+                                    <div class="pt-4 d-flex align-items-center border-top">
+                                        <i data-feather="smartphone" class="fea icon-md me-2 text-primary"></i>
+                                        <div class="content">
+                                            <p class="mb-0">Install app now on your cellphones</p>
+                                            <a href="app.html" class="text-primary small">Learn More <i
+                                                    class="mdi mdi-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+            </section>
+            <!--end section-->
+            <!-- Download End -->
+
+
+            <!-- Features Start -->
+            <section class="section overflow-hidden" id="modules">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <div class="section-title text-center mb-4 pb-2">
+                                <h6 class="text-primary font-weight-normal mb-3">Work Process</h6>
+                                <h4 class="title mb-4">How It Works ?</h4>
+                                <p class="para-desc mx-auto text-muted mb-0">Launch your campaign and benefit from our
+                                    expertise
+                                    on designing and managing conversion centered bootstrap4 html page.</p>
+                            </div>
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row-->
+
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                            <div class="feature position-relative text-center">
+                                <div class="p-4 rounded position-relative overflow-hidden">
+                                    <div class="icon text-primary">
+                                        <i class="uim uim-key-skeleton-alt"></i>
+                                        <img src="images/shape-1.png" class="avatar avatar-small icon-shape" alt="">
+                                    </div>
+                                    <div class="content mt-4">
+                                        <h5><a href="javascript:void(0)" class="title text-dark">Create Account</a></h5>
+                                        <p class="text-muted">Due to its widespread use as filler text for layouts,
+                                            non-readability is of great importance</p>
+                                        <a href="javascript:void(0)" class="text-primary">Read More <i
+                                                data-feather="chevron-right" class="fea icon-sm"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col-->
+
+                        <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                            <div class="feature position-relative text-center">
+                                <div class="p-4 rounded position-relative overflow-hidden">
+                                    <div class="icon text-primary">
+                                        <i class="uim uim-signal-alt-3"></i>
+                                        <img src="images/shape-1.png" class="avatar avatar-small icon-shape" alt="">
+                                    </div>
+                                    <div class="content mt-4">
+                                        <h5><a href="javascript:void(0)" class="title text-dark">Data Analysis</a></h5>
+                                        <p class="text-muted">Due to its widespread use as filler text for layouts,
+                                            non-readability is of great importance</p>
+                                        <a href="javascript:void(0)" class="text-primary">Read More <i
+                                                data-feather="chevron-right" class="fea icon-sm"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col-->
+
+                        <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                            <div class="feature position-relative text-center">
+                                <div class="p-4 rounded position-relative overflow-hidden">
+                                    <div class="icon text-primary">
+                                        <i class="uim uim-flip-v"></i>
+                                        <img src="images/shape-1.png" class="avatar avatar-small icon-shape" alt="">
+                                    </div>
+                                    <div class="content mt-4">
+                                        <h5><a href="javascript:void(0)" class="title text-dark">Show Result</a></h5>
+                                        <p class="text-muted">Due to its widespread use as filler text for layouts,
+                                            non-readability is of great importance</p>
+                                        <a href="javascript:void(0)" class="text-primary">Read More <i
+                                                data-feather="chevron-right" class="fea icon-sm"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+
+                <div class="container mt-100 mt-60">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <div class="section-title text-center">
+                                <h6 class="text-primary font-weight-normal mb-3">Features</h6>
+                                <h4 class="title mb-4">What We Do ?</h4>
+                                <p class="text-muted para-desc mx-auto mb-0">Launch your campaign and benefit from our
+                                    expertise
+                                    on designing and managing conversion centered bootstrap4 html page.</p>
+                            </div>
+                        </div>
+                        <!--end dol-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+
+                <div class="container mt-100 mt-60">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="feature position-relative">
+                                <img src="images/saas/features-1.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <!--end col-->
+
+                        <div class="col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                            <div class="section-title">
+                                <h5 class="title mb-4">Perfect Solution for <br> Your Dashboard</h5>
+                                <p class="text-muted para-desc">Launch your campaign and benefit from our expertise on
+                                    designing
+                                    and managing conversion centered bootstrap4 html page.</p>
+                                <ul class="list-unstyled">
+                                    <li class="mt-2"><i data-feather="check-circle"
+                                            class="fea icon-sm text-primary me-2"></i>Digital Marketing Solutions for
+                                        Tomorrow
+                                    </li>
+                                    <li class="mt-2"><i data-feather="check-circle"
+                                            class="fea icon-sm text-primary me-2"></i>Our Talented & Experienced
+                                        Marketing
+                                        Agency</li>
+                                    <li class="mt-2"><i data-feather="check-circle"
+                                            class="fea icon-sm text-primary me-2"></i>Create your own skin to match your
+                                        brand
+                                    </li>
+                                </ul>
+                                <div class="mt-4">
+                                    <a href="javascript:void(0)" class="btn btn-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+
+                <div class="container mt-100 mt-60">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 order-1 order-md-2">
+                            <div class="feature position-relative">
+                                <img src="images/saas/features-2.png" class="img-fluid d-block mx-auto" alt="">
+                            </div>
+                        </div>
+                        <!--end col-->
+
+                        <div class="col-md-6 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                            <div class="section-title">
+                                <h5 class="title mb-4">Built The Dashboard <br> That Everyone Love.</h5>
+                                <p class="text-muted para-desc">Launch your campaign and benefit from our expertise on
+                                    designing
+                                    and managing conversion centered bootstrap4 html page.</p>
+                                <ul class="list-unstyled">
+                                    <li class="mt-2"><i data-feather="check-circle"
+                                            class="fea icon-sm text-primary me-2"></i>Digital Marketing Solutions for
+                                        Tomorrow
+                                    </li>
+                                    <li class="mt-2"><i data-feather="check-circle"
+                                            class="fea icon-sm text-primary me-2"></i>Our Talented & Experienced
+                                        Marketing
+                                        Agency</li>
+                                    <li class="mt-2"><i data-feather="check-circle"
+                                            class="fea icon-sm text-primary me-2"></i>Create your own skin to match your
+                                        brand
+                                    </li>
+                                </ul>
+                                <div class="watch-video mt-4">
+                                    <a href="javascript:void(0)" class="btn btn-primary mb-2 me-2">Read More</a>
+                                    <a href="javascript:void(0)" data-bs-toggle="modal"
+                                        data-bs-target="#watchvideomodal"
+                                        class="video-play-icon watch title-dark text-dark mb-2"><i
+                                            class="mdi mdi-play play-icon-circle text-center d-inline-block me-2 rounded-pill text-white title-dark position-relative play play-iconbar"></i>
+                                        Watch Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+            </section>
+            <!--end section-->
+            <!-- Features End -->
+
+            
+                <!-- Back to top -->
+                <a href="#" class="back-to-top" id="back-to-top" title="Top">
+                    <i class="mdi mdi-arrow-up icons bg-light text-dark"> </i>
+                </a>
+                <!-- Back to top -->
+            </footer>
+            <!--end footer-->
+            <footer class="footer-bar bg-dark">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 text-center">
+                            <p class="mb-0 footer-text para-desc mx-auto">©
+                                <script>document.write(new Date().getFullYear())</script> <span
+                                    class="text-reset">fibodo</span>. Design with <i
+                                    class="mdi mdi-heart text-danger"></i> by
+                                <a href="http://storyx.co.uk" target="_blank" class="text-reset">StoryX</a>.
+                            </p>
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+            </footer>
+            <!--end footer-->
+            <!-- Footer End -->
+
+            <!-- Video Popup Start -->
+            <div class="modal fade" id="watchvideomodal" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content video-modal rounded overflow-hidden">
+                        <!-- <video class="w-100" controls autoplay muted loop>
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4"> -->
+                        <!--Browser does not support <video> tag -->
+                        <!-- </video> -->
+                        <!--If you want to use your own video please set your files path-->
+
+
+                        <!-- <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/jNTZpfXYJa4?rel=0" title="YouTube video" allowfullscreen></iframe>
+                    </div> -->
+                        <!--If you want to use the youtube link please try the above code-->
+
+                        <div class="ratio ratio-16x9">
+                            <iframe src="http://player.vimeo.com/video/99025203" title="Vimeo video"
+                                allowfullscreen></iframe>
+                        </div>
+                        <!--If you want to use the Vimeo link please try the above code-->
+                    </div>
+                </div>
+            </div>
+            <!-- Video Popup End -->
+
+            <!-- javascript -->
+            <script src="js/bootstrap.bundle.min.js"></script>
+            <script src="js/gumshoe.polyfills.min.js"></script>
+            <!-- Contact -->
+            <script src="js/contact.js"></script>
+            <!-- Icon -->
+            <script src="js/feather.min.js"></script>
+            <script src="https://unicons.iconscout.com/release/v3.0.6/script/monochrome/bundle.js" />
+            </script>
+            <!-- SLIDER -->
+            <script src="js/tiny-slider.js "></script>
+            <script src="js/tiny-slider-init.js "></script>
+            <!-- Main Js -->
+            <script src="js/app.js"></script>
+</body>
+
+</html>
